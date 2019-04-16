@@ -19,4 +19,4 @@ EXPOSE 80 443 22 1688
 
 # CMD ["/sbin/init"]
 # CMD ["/usr/local/kms/vlmcsd-x64-musl-static"]
-CMD sh /bin/run.sh
+CMD ["sh", "/bin/run.sh"] # 同CMD sh /bin/run.sh
